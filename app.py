@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request,redirect, jsonify, abort
 from flask_mysqldb import MySQL
-import yaml
+# import yaml
 from flask_cors import CORS, cross_origin
 import mysql.connector
 from datetime import date
