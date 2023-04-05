@@ -1,1 +1,1 @@
-web: gunicorn app:dalfoods-service --timeout 10
+web: gunicorn app:app
