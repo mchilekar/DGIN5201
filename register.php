@@ -17,7 +17,7 @@
         <input type="employee" name="employeeID" maxlength="9" placeholder="Please enter Employee ID or Student ID" class="box"><br>
         <input type="password" name="password" placeholder="Please enter password" class="box"><br>
         <input type="password" name="confirm" placeholder="Please confirm password" class="box"><br>
-        <input type="submit" value="Register" class="btn"><br>
+        <input type="submit" value="Register" class="btn_2"><br>
         <p>Already have an account? <a href="login.php">Login Now</a></p>
     </form>
 </div>
