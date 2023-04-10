@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
              }
              else{
                 //header("Location: employee.php");  
-                header("Location: http://localhost:5000/employee");  
+                header("Location: http://3.138.109.137/:5000/employee");  
                 
             }
             
