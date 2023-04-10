@@ -24,7 +24,7 @@ var dinner_cnt = 0;
         "order": insert[0],
       });
 
-    await fetch('http://localhost:5000/update-click-count', {
+    await fetch('http://3.138.109.137/:5000/update-click-count', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -60,7 +60,7 @@ var dinner_cnt = 0;
         "order": insert[0],
       });
       //alert("Here"+ raw)
-     await fetch('http://localhost:5000/update-lunch-count', {
+     await fetch('http://3.138.109.137/:5000/update-lunch-count', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -96,7 +96,7 @@ async function connectdinner(){
     "order": insert[0],
   });
   //alert("Here"+ raw)
- await fetch('http://localhost:5000/update-dinner-count', {
+ await fetch('http://3.138.109.137/update-dinner-count', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
