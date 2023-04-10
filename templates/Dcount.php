@@ -55,7 +55,7 @@ html, body {
     min-height: 100%;
 }
 .jumbotron-1 h1 {
-    margin-left: 465px;
+    margin-left: 41.5%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -101,6 +101,7 @@ tr:hover {
         </tr> 
 
 </table>
+<a style="text-align: center; font-size: 20px; margin-left: 48.5%;" href = "templates/logout.php">Logout</a>
 </div>
 </div>
 </body>
