@@ -40,7 +40,7 @@
         <img src="css/new1.jpg" alt="Image not found"/>
         <h3>Login Now</h3>
         <input type="text" name="email" placeholder="Please enter email" class="box"><br>
-        <input type="password" name="password" placeholder="Please enter password"  style="padding:1.69%" class="box"><br>
+        <input type="password" name="password" placeholder="Please enter password"  style="padding:2.69%" class="box"><br>
         <input type="submit" value="Login" class="btn_1"><br>
         <p>Don't have an account? <a href="register.php">Register Now</a></p>
     </form>
