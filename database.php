@@ -19,9 +19,9 @@
 ?> -->
 
 <?php
-$servername = "db.cs.dal.ca";
-$username = "chilekar";
-$password = "TKZ7VWVFoSqP9qyyxVwAHT9pZ";
+$servername = "localhost";
+$username = "root";
+$password = "root_password";
 $database = "chilekar";
 
 // Create connection
