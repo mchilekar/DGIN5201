@@ -16,10 +16,10 @@ CORS(app,support_credentials=True)
 # app.config['MYSQL_PASSWORD'] = 'WVxfa7JN9hGiuR3UgoqRH7nNK' #db['mysql_password']
 # app.config['MYSQL_DB'] = 'chilekar' #db['mysql_db']
 
-connection = mysql.connector.connect(host='db.cs.dal.ca',
+connection = mysql.connector.connect(host='localhost',
                                          database='chilekar',
-                                         user='chilekar',
-                                         password='TKZ7VWVFoSqP9qyyxVwAHT9pZ')
+                                         user='root',
+                                         password='root_password')
 
 #mysql = MySQL(app)
 #cursor = mysql.connect.cursor()
